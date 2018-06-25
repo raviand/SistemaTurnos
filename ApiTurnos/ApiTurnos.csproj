@@ -182,6 +182,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Atencion.cs" />
+    <Compile Include="Models\DiaHabilitado.cs" />
+    <Compile Include="Models\Direccion.cs" />
+    <Compile Include="Models\Especialidad.cs" />
+    <Compile Include="Models\Paciente.cs" />
+    <Compile Include="Models\Plan.cs" />
+    <Compile Include="Models\Profesional.cs" />
+    <Compile Include="Models\ServicioMedico.cs" />
+    <Compile Include="Models\Telefono.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -238,7 +247,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
